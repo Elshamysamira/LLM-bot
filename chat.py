@@ -15,7 +15,7 @@ def get_prompt(instruction: str, history: list[str] = None) -> str:
 async def on_message(message: cl.Message):
     message_history = cl.user_session.get("message_history")
     msg = cl.Message(content="")
-    await msg.send()gi
+    await msg.send()
 
     prompt = get_prompt(message.content, message_history)
     response = ""
