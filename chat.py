@@ -31,5 +31,5 @@ def on_chat_start():
     cl.user_session.set("message_history", [])
     global llm
     llm = AutoModelForCausalLM.from_pretrained(
-        "zoltanctoth/orca_mini_3B-GGUF", model_file="orca-mini-3b.q4_0.gguf"
+        "TheBloke/Llama-2-7b-Chat-GGUF", model_file="llama-2-7b-chat.Q5_K_M.gguf"
     )
