@@ -9,7 +9,3 @@ Hi there! 👋 This is the immigration bot which should help you with questions 
 - **ÖGK:** https://www.gesundheitskasse.at/cdscontent/?contentid=10007.866742&portal=oegkportal 
 
 We hope our chatbot helps you to immigrate successfully!
-
-## Welcome screen
-
-To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.
