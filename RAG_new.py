@@ -10,7 +10,7 @@ import numpy as np
 
 # Initialize components
 retrieval_model = SentenceTransformer('all-MiniLM-L6-v2')  # Lightweight sentence transformer
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)  # Chunker
+text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=150)  # Chunker
 vector_dimension = 384  # Embedding size for 'all-MiniLM-L6-v2'
 index = faiss.IndexFlatL2(vector_dimension)  # FAISS Index for dense vector search
 document_metadata = {}  # Map document ID to metadata
